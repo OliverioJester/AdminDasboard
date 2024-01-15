@@ -1,0 +1,70 @@
+/* Users.css */
+.loading-bar {
+    height: 4px;
+    background-color: #800080; /* Purple color */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    animation: loading-bar 10s linear infinite; /* You can adjust the animation duration */
+  }
+  
+  @keyframes loading-bar {
+    0% {
+      transform: scaleX(0);
+      transform-origin: left;
+    }
+
+    10% {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
+    20% {
+        transform: scaleX(2);
+        transform-origin: left;
+      }
+
+      
+    30% {
+        transform: scaleX(3);
+        transform-origin: left;
+      }
+
+      
+    40% {
+        transform: scaleX(4);
+        transform-origin: left;
+      }
+
+    50% {
+      transform: scaleX(5);
+      transform-origin: left;
+    }
+
+    60% {
+        transform: scaleX(6);
+        transform-origin: left;
+      }
+
+    70% {
+    transform: scaleX(7);
+    transform-origin: left;
+    }
+
+    80% {
+    transform: scaleX(8);
+    transform-origin: left;
+    }
+
+    90% {
+    transform: scaleX(9);
+    transform-origin: left;
+    }
+
+    100% {
+        transform: scaleX(11);
+        transform-origin: right;
+      }
+  }

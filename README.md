@@ -1,8 +1,7 @@
-# AdminDasboard
-This is my Admin Dashboard-React-Laravel-REST-API prototype project.
+# FullStack-Admin-Dasboard
+This is my Admin Dashboard-React-Laravel-REST-API(Prototype).
 
 For the Front-end I used: React.js, SCSS, CSS, React-bootstrap, Bootsrap, Reactstrap, and Axios.
-For the Back-end I used: Laravel. 
-For the API I used: REST API.
+For the Back-end I used: Laravel REST-API. 
 
 
